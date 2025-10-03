@@ -1,19 +1,47 @@
 # CatDog
-Computer Vision und Natural Language Processing WS25
+**Computer Vision und Natural Language Processing WS25**
 
-# Before getting started:
-Get the dataset from Kaggle https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset
-Put the Cat and Dog folders into the provided data folder!!!!
+---
+
+## Before Getting Started
+
+1. Get the dataset from Kaggle:  
+   [Microsoft Cats vs Dogs Dataset](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset)
+
+2. Put the `Cat` and `Dog` folders into the provided `data` folder.
+
+---
+
+## Creating and Activating a Virtual Environment (optional)
+
+> Doing this ensures everyone has the same environment.
+
+1. Open a terminal in the **project root**.
+
+2. Create the virtual environment:
+
+python -m venv venv
 
 
-# How to create and activate the venv (is optional, but then we all have the same environment)
--in the terminal in the project root
+3. Activate the virtual environment:
 
-1. python -m venv venv
-#Activate
-#Windows:
-2.1. venv\Scripts\activate
-#Mac/Linux:
-2.2. source venv/bin/activate
-3. pip install -r requirements.txt
-4. Switch kernel in VSC to venv (top right corner in the notebook)
+* **Windows:**
+
+```
+venv\Scripts\activate
+```
+
+* **Mac/Linux:**
+
+```
+source venv/bin/activate
+```
+
+4. Install required packages:
+
+```
+pip install -r requirements.txt
+```
+
+5. In VS Code, switch the notebook kernel to the virtual environment (`venv`) using the top right corner of the notebook.
+
