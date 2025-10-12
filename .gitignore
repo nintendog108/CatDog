@@ -1,1 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Jupyter and checkpoints
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
 
