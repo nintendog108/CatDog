@@ -27,9 +27,15 @@ python -m venv venv
 
 * **Windows:**
 
-```
-venv\Scripts\activate
-```
+  * Command Prompt (cmd.exe):
+  ```
+  venv\Scripts\activate
+  ```
+
+  * PowerShell:
+  ```
+  .\.venv\Scripts\Activate.ps1
+  ```
 
 * **Mac/Linux:**
 
